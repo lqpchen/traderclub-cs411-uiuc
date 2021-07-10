@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.axis-border {
+    stroke: black;
+}
+
+.axis line {
+    stroke: #C0C0BB;
+}
+
+.axis .tick {
+    stroke: black;
+}
+
+.axis text {
+    font-size: small;
+    fill: #635F5D;
+}
+
+.candlestick-mark {
+    stroke-linecap: square;
+    stroke: black;
+}
+
+.volume-mark {
+    fill:#bdccdc;
+    opacity: 0.5;
+}
+
+.line-mark {
+    fill: #cce5df;
+    stroke: #69b3a2;
+    stroke-width: 1.5;
+}
+
+.handle {
+    pointer-events: none;
+}
+
+.overlay {
+    pointer-events: none;
+}
